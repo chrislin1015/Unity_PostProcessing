@@ -78,7 +78,6 @@
 #else
         float shadowMapDepth = DecodeFloatRGBA(SAMPLE_TEXTURE2D(_CustomShadowMap, sampler_CustomShadowMap, uv));
 #endif       
-
        return shadowMapDepth;
     }
 
@@ -97,7 +96,6 @@
 #elif defined (UNITY_REVERSED_Z)
         fragDepth = 1 - fragDepth; // (1,0)->(0,1)
 #endif
-
         if (fragDepth < 0 || fragDepth > 1)
             return half3(1, 1, 1);
 
@@ -128,7 +126,6 @@
             atten = lerp(1, 0, _ShadowStrength + lum);
         }
 #endif
-
         return lerp(half3(_ShadowColor.rgb), half3(1, 1, 1), atten);
     }
 
@@ -147,7 +144,7 @@
         half4 color = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.texcoord);
      
         half l = Luminance(color.xyz);
-        half3 sc = color.rgb * ShadowAtten(worldPosition, l, worldNormal);//i.texcoord);// * _ShadowColor;
+        half3 sc = color.rgb * ShadowAtten(worldPosition, l, worldNormal);
         color.rgb = lerp(color.rgb, sc.rgb, ndl);
         return half4(color.rgb, 1);
     }

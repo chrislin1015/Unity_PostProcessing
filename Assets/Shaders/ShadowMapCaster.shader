@@ -19,7 +19,7 @@
     {
         v2f o;
         o.vertex = UnityObjectToClipPos(v.vertex);
-        o.depth = o.vertex.zw;//COMPUTE_DEPTH_01;
+        o.depth = o.vertex.zw;
         return o;
     }
 
@@ -53,8 +53,6 @@
 
         Tags
         {
-            //"SigonoShadowMap"="1"
-            //"RenderType"="Opaque"
             "LightMode" = "ForwardBase"
         }
 

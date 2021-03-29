@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings:
   - {fileID: 6705385113797358586}
+  - {fileID: 8648330477499557466}
 --- !u!114 &6705385113797358586
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35,13 +36,38 @@ MonoBehaviour:
     value: 1
   shadowColor:
     overrideState: 1
-    value: {r: 0.9811321, g: 0, b: 0, a: 1}
+    value: {r: 0.5444166, g: 0.8113208, b: 0.49368104, a: 1}
   strength:
     overrideState: 1
-    value: 1
+    value: 0.903
   shadowBias:
     overrideState: 1
     value: 0.0212
   shadowPcfSpread:
     overrideState: 1
     value: 0.001
+--- !u!114 &8648330477499557466
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c81d5813f3f63c4d912c6e82c414ae3, type: 3}
+  m_Name: RadialBlurPostProcess
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  center:
+    overrideState: 1
+    value: {x: 0.5, y: 0.5}
+  dist:
+    overrideState: 1
+    value: 0.57
+  strength:
+    overrideState: 1
+    value: 3.34
