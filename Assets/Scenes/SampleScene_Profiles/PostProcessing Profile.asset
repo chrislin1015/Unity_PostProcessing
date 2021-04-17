@@ -15,6 +15,33 @@ MonoBehaviour:
   settings:
   - {fileID: 6705385113797358586}
   - {fileID: 8648330477499557466}
+  - {fileID: 1575414770736333161}
+--- !u!114 &1575414770736333161
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdafce9ecbf182a4282d86588673e879, type: 3}
+  m_Name: HeatDistrotion
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  splitRgb:
+    overrideState: 0
+    value: 0.05
+  strength:
+    overrideState: 0
+    value: 0.2
+  noiseTex:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
 --- !u!114 &6705385113797358586
 MonoBehaviour:
   m_ObjectHideFlags: 3
