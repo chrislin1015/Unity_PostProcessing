@@ -18,19 +18,19 @@ MonoBehaviour:
     value: 1
   direction:
     overrideState: 1
-    value: {x: 6.12, y: 3.33}
+    value: {x: 3.44, y: 3.64}
   depthRange:
     overrideState: 1
     value: {x: 2.66, y: 10}
   samples:
     overrideState: 1
-    value: 4
+    value: 5
   strength:
     overrideState: 1
-    value: 0.394
+    value: 0.766
   flowSpeed:
     overrideState: 1
-    value: 1.97
+    value: 1.2
   flowTex:
     overrideState: 1
     value: {fileID: 2800000, guid: 479d7529a62020d48ba54526b633c78c, type: 3}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f7a9f38202e6c8489b53389703de2cf, type: 3}
   m_Name: AreaLightPp
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -88,16 +88,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdafce9ecbf182a4282d86588673e879, type: 3}
   m_Name: HeatDistrotion
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
   splitRgb:
-    overrideState: 0
-    value: 0.05
+    overrideState: 1
+    value: 0.338
   strength:
-    overrideState: 0
-    value: 0.2
+    overrideState: 1
+    value: 0.1
   noiseTex:
     overrideState: 1
     value: {fileID: 2800000, guid: c752a7d37bc16f1459e0972cd468feff, type: 3}
@@ -129,19 +129,19 @@ MonoBehaviour:
     value: 1
   edge:
     overrideState: 1
-    value: 0
+    value: 1
   threshold:
     overrideState: 1
-    value: 0.388
+    value: 0.287
   contrastThreshold:
     overrideState: 1
-    value: 0.0558
+    value: 0.0395
   relativeThreshold:
     overrideState: 1
-    value: 0.146
+    value: 0.225
   compareSlider:
     overrideState: 1
-    value: 0.34
+    value: 0.448
   fixedParameter:
     overrideState: 1
     value: 1
@@ -166,16 +166,16 @@ MonoBehaviour:
     value: 1
   shadowColor:
     overrideState: 1
-    value: {r: 0.5444166, g: 0.8113208, b: 0.49368104, a: 1}
+    value: {r: 0.9339623, g: 0.046783626, b: 0.022027409, a: 1}
   strength:
     overrideState: 1
     value: 0.903
   shadowBias:
     overrideState: 1
-    value: 0.0212
+    value: 0.0545
   shadowPcfSpread:
     overrideState: 1
-    value: 0.001
+    value: 0.00248
 --- !u!114 &8648330477499557466
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -194,10 +194,10 @@ MonoBehaviour:
     value: 1
   center:
     overrideState: 1
-    value: {x: 0.5, y: 0.5}
+    value: {x: 0.68, y: 0.5}
   dist:
     overrideState: 1
     value: 0.57
   strength:
     overrideState: 1
-    value: 3.34
+    value: 4.3
